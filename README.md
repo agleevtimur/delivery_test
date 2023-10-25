@@ -1,7 +1,12 @@
+Проект релизован по [ТЗ](https://docs.google.com/forms/d/e/1FAIpQLSfG56O-7vRWnDTrMDYN6pSH3nv5QH3GAf7lYXdkNY1zqYEuBQ/viewform)
+
 ## Начало работы с проектом:
 ```
+git clone https://github.com/agleevtimur/delivery_test
+cd delivery_test
 docker-compose up -d --build
 ```
++ не переименовывайте папку со склонированным репозиторием, она должна называться delivery_test
 + открыть в браузере localhost:8000
 + для добавления нового набора данных кликнуть на +
 + для выполнения запроса кликнуть на "Получить цены" (ответ придет для всех наборов данных вместе)
