@@ -1,5 +1,7 @@
 <?php
 
+//Эмуляция API ПЭК. Выдает случайный набор данных
+
 $url = $_SERVER['REQUEST_URI'];
 $response = [];
 
